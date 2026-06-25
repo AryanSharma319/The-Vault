@@ -16,7 +16,7 @@ class Mainwindow:
         self.vault=vault
         self.clogin=Tk()
         self.clogin.title("Login")
-        self.clogin.geometry("450x350")
+        self.clogin.geometry("350x350")
         self.clogin.configure(bg=self.bg)
         self.icon=PhotoImage(file="vault.png")
         self.clogin.iconphoto(True,self.icon)
